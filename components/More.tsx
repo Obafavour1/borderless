@@ -13,7 +13,7 @@ const More = () => {
                 <Image src='/' alt='Sending Logo' width={30} height={30} />
                 <div>
                     <h4>Business Transfer</h4>
-                    <p>Boss Moves? We've got your business transfers handled</p>
+                    <p>Boss Moves? We&apos;ve got your business transfers handled</p>
                 </div>
                 <Image src='/' alt='Sending Logo' width={30} height={30} />
                 <div>

@@ -8,8 +8,8 @@ const Feature = () => {
         <div>
             <div className=' text-center md:w-1/2 mx-auto'>
                 <p className='py-2 px-3 mx-auto max-md:text-center rounded-xl text-greens-200  bg-gradient-to-br from-greens-100 to-blues-100 w-fit'>Packed with powerful features</p>
-                <h3 className='header3 py-5'>A whole lot more than just sendig <span className='text-greens-200'>money.</span>We're on steroids!</h3>
-                <p className='p1'>Hey there world traveler! It’s time for you globetrotters to rejoice cos’ sending money abroad just got stupid simple :)</p>
+                <h3 className='header3 py-5'>A whole lot more than just sendig <span className='text-greens-200'>money.</span>We&apos;re on steroids!</h3>
+                <p className='p1'>Hey there world traveler! It&apos;s time for you globetrotters to rejoice cos&apos; sending money abroad just got stupid simple :)</p>
             </div>
             <div className='grid md:grid-cols-3 gap-10 mt-20'>
               {

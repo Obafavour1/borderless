@@ -13,7 +13,7 @@ const Navbar = () => {
                     {
                         NavLinks.map(nav=>{
                             return(
-                                <div>
+                                <div key={nav.name}>
                                     <Link href={nav.href} className='text-[18px] font-semibold'>{nav.name}</Link>
                                 </div>
                             )
