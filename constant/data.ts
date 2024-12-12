@@ -7,6 +7,26 @@ export const NavLinks =[
     {name: 'Help', href:'/'}
 ]
 
+export const Legal =[
+    {name: 'Privacy Policy', href:'/'},
+    {name: 'Terms of Use', href:'/'},
+    
+]
+
+export const Project =[
+    {name: 'Sign Up', href:'/'},
+    {name: 'Log In', href:'/'},
+    {name: 'Pricing', href:'/'},
+   
+]
+
+export const Resource =[
+    {name: 'Docs', href:'/'},
+    {name: 'FAQs / Support', href:'/'},
+    {name: 'Contact Us', href:'/'},
+    
+]
+
 export const Features =[
     {
         title: 'Get paid to local accounts',

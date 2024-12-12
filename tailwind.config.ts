@@ -10,6 +10,8 @@ export default {
     extend: {
       colors: {
         blues:{
+          20:'A090F3',
+          50:'#4F29FA',
           100:'#FAFAFA',
           200:'#8A75EB',
           300:'#5F44EC',
@@ -34,6 +36,7 @@ export default {
         yellows:{
           100:'#FEE9A4',
           150:'#F9D050',
+          180:'#E58A13',
           200:'#826400'
         }
       },
