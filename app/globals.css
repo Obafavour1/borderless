@@ -2,20 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin: 0;
+  padding: none;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities{
+  .maxContainer{
+    @apply max-w-[1440px] mx-auto
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .sections{
+    @apply px-5 md:px-[150px] py-6 md:py-[100px] w-full
+  }
+
+  .gridCenter{
+    @apply grid justify-center mx-auto
+  }
+  .header2{
+    @apply text-[32px] lg:text-[56px] leading-10 md:leading-[70px] font-semibold
+  }
+
+  .header3{
+    @apply text-[28px] md:text-[40px] leading-normal font-semibold
+  }
+
+  .header4{
+    @apply text-[21px] font-semibold leading-normal
+  }
+
+  .p1{
+    @apply text-[16px] leading-6 lg:text-[21px] font-normal
+  }
+  .generalButton{
+    @apply px-3 py-2 font-semibold text-[14px] md:text-[18px]
+  }
+
+  .whiteButton{
+    @apply px-8 py-4 text-[16px] md:text-[21px] font-semibold bg-white text-blacks-200 rounded-xl
+  }
+
+  .blackButton{
+    @apply px-8 py-4 text-[16px] md:text-[21px] font-semibold bg-blacks-200 text-white w-fit rounded-xl
+  }
 }
