@@ -1,11 +1,11 @@
 import { Features } from '@/constant/data'
 import Image from 'next/image'
-import React from 'react'
+import React, { lazy } from 'react'
 
 const Feature = () => {
   return (
-    <section id='feature' className='sections'>
-        <div>
+    <section  id='feature' className='sections'>
+        <div >
             <div className=' text-center sm:w-9/12 lg:w-9/12 mx-auto'>
               <p className='py-2 px-3 mx-auto max-md:text-center rounded-xl text-greens-200  bg-gradient-to-br from-greens-100 to-blues-100 w-fit'>Packed with powerful features  🔥</p>
               <h3 className='header3 py-5'>A whole lot more than just sending <span className='text-greens-200'>money.</span>We&apos;re on steroids!</h3>
