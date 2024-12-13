@@ -1,6 +1,6 @@
 import { Features } from '@/constant/data'
 import Image from 'next/image'
-import React, { lazy } from 'react'
+
 
 const Feature = () => {
   return (
