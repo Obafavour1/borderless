@@ -10,7 +10,7 @@ export default {
     extend: {
       colors: {
         blues:{
-          20:'A090F3',
+          20:'#A090F3',
           50:'#4F29FA',
           100:'#FAFAFA',
           200:'#8A75EB',

@@ -2,28 +2,28 @@ import { title } from "process"
 
 export const NavLinks =[
     {name: 'Home', href:'/'},
-    {name: 'Features', href:'/'},
-    {name: 'Pricing', href:'/'},
-    {name: 'Help', href:'/'}
+    {name: 'Features', href:'#feature'},
+    {name: 'Pricing', href:'#'},
+    {name: 'Help', href:'#'}
 ]
 
 export const Legal =[
-    {name: 'Privacy Policy', href:'/'},
-    {name: 'Terms of Use', href:'/'},
+    {name: 'Privacy Policy', href:'#'},
+    {name: 'Terms of Use', href:'#'},
     
 ]
 
 export const Project =[
-    {name: 'Sign Up', href:'/'},
-    {name: 'Log In', href:'/'},
-    {name: 'Pricing', href:'/'},
+    {name: 'Sign Up', href:'#'},
+    {name: 'Log In', href:'#'},
+    {name: 'Pricing', href:'#'},
    
 ]
 
 export const Resource =[
-    {name: 'Docs', href:'/'},
-    {name: 'FAQs / Support', href:'/'},
-    {name: 'Contact Us', href:'/'},
+    {name: 'Docs', href:'#'},
+    {name: 'FAQs / Support', href:'#'},
+    {name: 'Contact Us', href:'#'},
     
 ]
 

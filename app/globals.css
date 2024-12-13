@@ -6,6 +6,7 @@
   margin: 0;
   padding: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @layer utilities{
@@ -14,14 +15,14 @@
   }
 
   .sections{
-    @apply px-5 md:px-[150px] py-6 md:py-[100px] w-full
+    @apply px-5 lg:px-[30px] xl:px-[150px] py-6 md:py-[100px] w-full
   }
 
   .gridCenter{
     @apply grid justify-center mx-auto
   }
   .header2{
-    @apply text-[32px] lg:text-[56px] leading-10 md:leading-[70px] font-semibold
+    @apply text-[32px] lg:text-[56px] leading-10 md:leading-[50px] font-semibold
   }
 
   .header3{
@@ -33,17 +34,25 @@
   }
 
   .p1{
-    @apply text-[16px] leading-6 lg:text-[21px] font-normal
+    @apply text-[16px] leading-6 lg:text-[20px] font-normal text-blacks-100
+  }
+
+  .p11{
+    @apply text-[16px] leading-6 lg:text-[20px] font-normal 
   }
   .generalButton{
     @apply px-3 py-2 font-semibold text-[14px] md:text-[18px]
   }
 
   .whiteButton{
-    @apply px-8 py-4 text-[16px] md:text-[21px] font-semibold bg-white text-blacks-200 rounded-xl
+    @apply px-8 py-4 text-[16px] md:text-[21px] shadow-2xl font-semibold bg-white transition-all duration-300 border border-white text-blacks-200 rounded-xl hover:bg-transparent  hover:text-white
   }
 
   .blackButton{
-    @apply px-8 py-4 text-[16px] md:text-[21px] font-semibold bg-blacks-200 text-white w-fit rounded-xl
+    @apply px-8 py-4 text-[16px] md:text-[21px] shadow-2xl font-semibold w-fit rounded-xl border border-blacks-200 text-white bg-blacks-200 transition-all duration-300 hover:bg-white hover:text-blacks-200 
   }
+
+  /* .blueGradient{
+    @apply bg-gradient-to-b from-blues-100 to-blues-400
+  } */
 }
